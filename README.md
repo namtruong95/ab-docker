@@ -1,4 +1,4 @@
-# Teriyaki Docker
+# Audio Book Docker
 
 ### Requirements
 
@@ -8,10 +8,10 @@
 
 ### Usage
 
-1.  Clone repository **teriyaki-docker**:
-   [https://bitbucket.org/nldanang/teriyaki-docker/src/master](https://bitbucket.org/nldanang/teriyaki-docker/src/master/)
+1.  Clone repository **ab-docker**:
+   [https://github.com/namtruong95/ab-docker](https://github.com/namtruong95/ab-docker/)
 
-2. Enter the teriyaki-docker folder and copy .env.example to .env
+2. Enter the ab-docker folder and copy .env.example to .env
     ```
     cp .env.example .env
     ```
@@ -24,8 +24,8 @@
 
 4.  Enter the Workspace container
     ```
-    ./mi go api
+    ./bin go api_server
     or
-    ./mi ga
+    ./bin gas
     ```
 
