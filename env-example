@@ -287,6 +287,7 @@ SQS_MANAGEMENT_HTTP_HOST_PORT=9325
 ### MINIO #################################################
 
 MINIO_PORT=9000
+MINIO_CONSOLE_PORT=9001
 
 ### MAILDEV ###############################################
 
